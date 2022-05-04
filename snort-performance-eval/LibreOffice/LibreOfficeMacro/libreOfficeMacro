@@ -1,0 +1,45 @@
+REM  *****  BASIC  *****
+
+Sub Main
+
+End Sub
+
+Sub compute_average_expavgstdev
+
+	dim document as object
+	document = ThisComponent
+	sheet = document.Sheets(0)
+	
+	sheet.getCellRangeByName("F1").String = "media E2-E105"
+	sheet.getCellRangeByName("F2").Formula = "=AVERAGE(E2:E105)"
+	sheet.getCellRangeByName("G1").String = "devstd s. media E2-E105"
+	sheet.getCellRangeByName("G2").Formula = "=SQRT(VAR(E2:E105)/104)"
+	
+	sheet.getCellRangeByName("F4").String = "media E6-E105"
+	sheet.getCellRangeByName("F5").Formula = "=AVERAGE(E6:E105)"
+	sheet.getCellRangeByName("G4").String = "devstd s. media E6-E105"
+	sheet.getCellRangeByName("G5").Formula = "=SQRT(VAR(E6:E105)/100)"
+	
+	sheet.getCellRangeByName("F7").String = "media E6-E100"
+	sheet.getCellRangeByName("F8").Formula = "=AVERAGE(E6:E100)"
+	sheet.getCellRangeByName("G7").String = "devstd s. media E6-E100"
+	sheet.getCellRangeByName("G8").Formula = "=SQRT(VAR(E6:E100)/95)"
+	
+	sheet.getCellRangeByName("F10").String = "media E11-E105"
+	sheet.getCellRangeByName("F11").Formula = "=AVERAGE(E11:E105)"
+	sheet.getCellRangeByName("G10").String = "devstd s. media E11-E105"
+	sheet.getCellRangeByName("G11").Formula = "=SQRT(VAR(E11:E105)/95)"
+	
+	sheet.getCellRangeByName("F13").String = "media E11-E100"
+	sheet.getCellRangeByName("F14").Formula = "=AVERAGE(E11:E100)"
+	sheet.getCellRangeByName("G13").String = "devstd s. media E11-E100"
+	sheet.getCellRangeByName("G14").Formula = "=SQRT(VAR(E11:E100)/90)"
+	
+	sheet.getCellRangeByName("F16").String = "media E25-E74"
+	sheet.getCellRangeByName("F17").Formula = "=AVERAGE(E25:E74)"
+	sheet.getCellRangeByName("G16").String = "devstd s. media E25-E74"
+	sheet.getCellRangeByName("G17").Formula = "=SQRT(VAR(E25:E74)/50)"
+	
+	MsgBox("Done")
+	
+End Sub

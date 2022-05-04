@@ -1,0 +1,26 @@
+* Preferences File for RCL Monitoring Tool
+
+* Experiment Name
+EXPERIMENT_NAME = expDown<SIGLA>
+
+* Output Folder
+OUTPUT_FOLDER = /home/osboxes/MonitoringResults/expDown
+
+* Observation Interval
+
+* Indicator Preferences File
+INDICATOR_PREFERENCES_FILE = /home/osboxes/RCLMonitoringTool/Indicators/expInd.preferences
+
+* Experiment Type Shell - Timing
+TIMING_EXPERIMENT = 103
+
+* ExperimentIter
+EXPERIMENT_ITERATIONS = 1
+
+* Output Type
+OUTPUT_TYPE = EACH_INDICATOR
+
+* Zip Output
+OUTPUT_ZIP_FLAG = false
+
+* Mail Output

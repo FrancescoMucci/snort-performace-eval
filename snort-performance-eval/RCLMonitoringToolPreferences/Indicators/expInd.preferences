@@ -1,0 +1,10 @@
+* Default Indicators for RCL Monitoring Tool
+* Use '*' to comment rows
+* All indicators are commented, please uncomment the chosen ones
+
+JVM
+OperatingSystemImpl.SystemCpuLoad
+
+
+
+

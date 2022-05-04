@@ -1,0 +1,12 @@
+CpuLoad <W>M<MOD>, Media E11-E100,Dev St sperimentale Media,Exp num,CpuLoad,MEDIA E,INCERTEZZA E
+1,,,,,AVERAGE(E2:E451),SQRT(VAR(E2:E451)/450)
+2,,,,,,
+3,,,,,,
+4,,,,,,
+5,,,,,,
+,,,,,,
+MEDIA,AVERAGE(B2:B6),,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+INCERTEZZA Comb,,"SQRT(SUMSQ(C2:C6)/POWER(5, 2))",,,,
