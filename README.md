@@ -1,4 +1,4 @@
-# Experimental Evaluation of Snort performance as packet sniffer/logger.
+# Experimental Evaluation of Snort performance as packet sniffer/logger
 
 This repository contains an experimental evaluation project which aims to observe and measure the performance of Snort as a packet sniffer/logger when run on two virtual nodes with two different operating systems.
 
