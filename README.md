@@ -4,4 +4,4 @@ This repository contains an experimental evaluation project which aims to observ
 
 This project was done for the [Master's degree in Computer Science](https://www.informaticamagistrale.unifi.it/) at the [University of Florence (https://www.unifi.it/) as part of exam *B018966 - Analisi Quantitativa dei Sistemi (Quantitative Analysis of Systems)*.
 
-See https://github.com/FrancescoMucci/CS-thesis-and-assignments for other projects and assignments done for the Bachelor's and Master's degree in Computer Science.
+See https://github.com/FrancescoMucci/CS-theses-and-assignments for other projects and assignments done for the Bachelor's and Master's degree in Computer Science.
